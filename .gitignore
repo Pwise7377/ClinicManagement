@@ -1,0 +1,50 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+launchSettings.json
+.vscode/
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Test
+TestResults/
+*.trx
+coverage*.xml
+
+# Local config / secrets (KHÔNG commit)
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+.env
+
+# Local DB files
+*.mdf
+*.ldf
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Claude Code local
+.claude/settings.local.json
